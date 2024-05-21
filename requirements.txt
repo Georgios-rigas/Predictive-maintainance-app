@@ -4,3 +4,4 @@ dash-html-components
 pillow
 torch
 numpy
+yolov5
