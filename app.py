@@ -15,10 +15,10 @@ import numpy as np
 yolov5_path = './yolov5'
 sys.path.append(os.path.abspath(yolov5_path))
 
-from models.common import DetectMultiBackend
-from utils.augmentations import letterbox
-from utils.general import check_img_size, non_max_suppression, scale_boxes
-from utils.plots import Annotator, colors
+from yolov5.models.common import DetectMultiBackend
+from yolov5.utils.augmentations import letterbox
+from yolov5.utils.general import check_img_size, non_max_suppression, scale_boxes
+from yolov5.utils.plots import Annotator, colors
 import pathlib
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath

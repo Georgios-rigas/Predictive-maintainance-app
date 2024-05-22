@@ -3,5 +3,14 @@ dash-core-components
 dash-html-components
 pillow
 torch
+torchvision
 numpy
+matplotlib
+opencv-python
+PyYAML
+scipy
+tqdm
+seaborn
+pandas
+pathlib
 yolov5
