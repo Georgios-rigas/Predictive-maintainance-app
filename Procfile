@@ -1,1 +1,1 @@
-web: gunicorn --timeout 600 app:server
+web: ./startup.sh
