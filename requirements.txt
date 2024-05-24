@@ -6,7 +6,7 @@ torch
 torchvision
 numpy
 matplotlib
-opencv-python-headless
+opencv-python
 PyYAML
 scipy
 tqdm
