@@ -5,7 +5,7 @@ pillow
 torch
 torchvision
 numpy
-matplotlib
+matplotlib==3.5.3
 opencv-python
 PyYAML
 scipy
