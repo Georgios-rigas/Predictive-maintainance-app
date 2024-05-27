@@ -20,8 +20,8 @@ from yolov5.utils.augmentations import letterbox
 from yolov5.utils.general import check_img_size, non_max_suppression, scale_boxes
 from yolov5.utils.plots import Annotator, colors
 import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
 
