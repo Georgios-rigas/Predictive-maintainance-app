@@ -91,7 +91,7 @@ app.layout = html.Div([
 
 def detect_defect(image):
     # Load the YOLOv5 model
-    weights_path = 'best.pt'
+    weights_path = str(pathlib.Path('best.pt'))
     model = DetectMultiBackend(weights_path, device='cpu', dnn=False, data='data/coco128.yaml', fp16=False)
     
     # Set model parameters
