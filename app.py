@@ -19,7 +19,7 @@ from yolov5.models.common import DetectMultiBackend
 from yolov5.utils.augmentations import letterbox
 from yolov5.utils.general import check_img_size, non_max_suppression, scale_boxes
 from yolov5.utils.plots import Annotator, colors
-import pathlib
+#import pathlib
 #temp = pathlib.PosixPath
 #pathlib.PosixPath = pathlib.WindowsPath
 
@@ -91,7 +91,8 @@ app.layout = html.Div([
 
 def detect_defect(image):
     # Load the YOLOv5 model
-    weights_path = str(pathlib.Path('best.pt'))
+    weights_path = 'best.pt'
+    #weights_path = str(pathlib.Path('best.pt'))
     model = DetectMultiBackend(weights_path, device='cpu', dnn=False, data='data/coco128.yaml', fp16=False)
     
     # Set model parameters

@@ -5,12 +5,11 @@ pillow
 torch
 torchvision
 numpy
-matplotlib==3.5.3
+matplotlib
 opencv-python
 PyYAML
 scipy
 tqdm
 seaborn
 pandas
-pathlib
 yolov5
