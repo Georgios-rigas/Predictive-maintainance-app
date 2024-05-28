@@ -12,4 +12,5 @@ scipy
 tqdm
 seaborn
 pandas
+dill
 yolov5
